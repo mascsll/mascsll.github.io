@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head> 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script> $('head').load('head.html') </script>
+</head> 
+
+
+<body>
+
+    <div id="header"></div>
+    <script> $("#header").load("header.html", function() {
+        $("#home_button").attr("class", "current");
+    }) </script>
+    
+
+    <h2>Welcome!</h2>
+    <p>
+        The 10th <strong>Mid-Atlantic Student Colloquium on Speech, Language and Learning</strong> (MASC-SLL 2023) is a one day event bringing together students, postdocs, faculty and researchers from universities and industry in the <a href="https://en.wikipedia.org/wiki/Mid-Atlantic_(United_States)">Mid-Atlantic area</a>. The colloquium is an opportunity for students and postdocs to present preliminary or completed work and to network with other researchers working in related fields.
+    </p>
+    <p> Thank everyone for attending MASC 2023! <b>We received a record number of 66 submissions from 29 schools and 130 attendees from 25 organizations.</b> 
+        See the statistics in our Opening Remark video and all others at <a href="https://www.youtube.com/@MASC-SLL/videos" target="_block">the MASC YouTube channel</a>.
+    </p>
+
+    <h2>Important Dates</h2>
+    <ul>
+        <li> Submission opens: February 17 </li>
+        <li> Submission deadline: <s>March 17</s>  March 24</li>
+        <li> Decisions announced: <s>March 31</s>  April 3</li>
+        <li> Registration opens: <s>March 17</s>  March 24</li>
+        <li> Registration closes: April 10 </li>
+        <li> Colloquium: April 22 </li>
+    </ul>
+    <p> All deadlines are at 11:59pm EST (GMT-5). 
+
+    <!-- <h2>Recording</h2>
+    <p>
+        Thank everyone for attending MASC 2023! Our video recordings are available at <a href="https://www.youtube.com/@MASC-SLL/videos" target="_block">youtube channel</a>.    </p> -->
+
+    <h2>Past Events</h2>
+    <ul>
+		<li><a href="http://www.mascsll.org/2022">2022</a></li>
+		<li><a href="http://www.mascsll.org/2020">2020</a></li>
+        <li><a href="https://sites.google.com/site/studentcolloquiumsll/2018">2018</a></li>
+        <li><a href="https://sites.google.com/site/studentcolloquiumsll/2017">2017</a></li>
+        <li><a href="https://sites.google.com/site/studentcolloquiumsll/2016">2016</a></li>
+        <li><a href="https://sites.google.com/site/studentcolloquiumsll/2015">2015</a></li>
+        <li><a href="https://sites.google.com/site/studentcolloquiumsll/2013">2013</a></li>
+        <li><a href="https://sites.google.com/site/studentcolloquiumsll/2012">2012</a></li>
+        <li><a href="https://sites.google.com/site/studentcolloquiumsll/2011">2011</a></li>
+    </ul>
+
+    <div id="footer"></div>
+    <script> $("#footer").load("footer.html") </script>
+
+    </body>
+</html>
+
