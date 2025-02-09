@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head> 
+    <base href='..'>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script> $.get('head.html', function(data) {
+        $('head').append(data);
+    }) </script>    
+</head> 
+
+
+
+<body>
+
+    <div id="header"></div>
+    <script> $("#header").load("header.html", function() {
+        $("#cfp_button").attr("class", "current");
+    }) </script>
+
+    <br>
+    Registration is Open!
+	If you don't see an embedded form below, <a href="https://docs.google.com/forms/d/e/1FAIpQLSeSoeDRkWU-I7XokQbKvbLP9HXACflF2Bz7pp8HnXcmmgosSg/viewform?embedded=true">click here</a>.
+    <br>
+    <center>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeSoeDRkWU-I7XokQbKvbLP9HXACflF2Bz7pp8HnXcmmgosSg/viewform?embedded=true" width="640" height="1042" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <!-- <iframe src="https://forms.gle/DBWfzBw9sBxBd2mM9" width="700" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+    </center>
+
+    <div id="footer"></div>
+    <script> $("#footer").load("footer.html") </script>
+
+    </body>
+
+    </body>
+</html>
+
