@@ -571,3 +571,4 @@ Gemfile
 Gemfile.lock
 
 # End of https://www.toptal.com/developers/gitignore/api/python,macos,vs,jekyll
+.DS_Store
