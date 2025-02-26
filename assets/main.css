@@ -179,42 +179,99 @@ and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) 
 { 
     html {
-        width: 25rem;
+        width: 100%;
         font-size: 13px;
     }
-    body{
+    body {
+        padding: 0 1rem;
+    }
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .top-left {
         padding: 0;
+        text-align: center;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom-right {
+        padding: 1rem 0;
+        text-align: center;
+        position: static;
+    }
+    .img-top-left {
+        height: 5rem;
+        padding: 0;
+        float: none;
+        margin: 1rem 0;
+    }
+    .navigation {
+        padding: 1rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    a.current, a.other {
+        padding: 0.5rem;
+        font-size: 1rem;
     }
     .title1{color: #b2132e;font-size: 2rem;}
     .title2{color: #52739e;font-size: 2rem;}
-    .top-left { padding-right: 0rem; }
-    .bottom-right { font-size: 1rem; top: 2rem; padding-right: 0rem; }
-    .img-top-left { height: 6rem;padding: 0 0 0rem 2rem;/* top: 0px; */float: left; margin-bottom: 2rem;}
-    a.current { padding: 0 .3rem; font-size: 1rem; }
-    a.other { padding: 0 .3rem; font-size: 1rem; }
-    div.navigation { padding-top: 2rem; }
-
 }
-
 
 @media only screen and (min-width: 411px) and (max-width: 767px) 
 { 
     html {
-        width: 25rem;
+        width: 100%;
         font-size: 13px;
     }
-    body{
+    body {
+        padding: 0 1rem;
+    }
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .top-left {
         padding: 0;
+        text-align: center;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom-right {
+        padding: 1rem 0;
+        text-align: center;
+        position: static;
+    }
+    .img-top-left {
+        height: 5rem;
+        padding: 0;
+        float: none;
+        margin: 1rem 0;
+    }
+    .navigation {
+        padding: 1rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    a.current, a.other {
+        padding: 0.5rem;
+        font-size: 1rem;
     }
     .title1{color: #b2132e;font-size: 2rem;}
     .title2{color: #52739e;font-size: 2rem;}
-    .top-left { padding-right: 0rem; }
-    .bottom-right { font-size: 1rem; top: 2rem; padding-right: 0rem; }
-    .img-top-left { height: 6rem;padding: 0 0 0rem 2rem;/* top: 0px; */float: left; margin-bottom: 2rem;}
-    a.current { padding: 0 .3rem; font-size: 1rem; }
-    a.other { padding: 0 .3rem; font-size: 1rem; }
-    div.navigation { padding-top: 2rem; }
-
 }
 
 
