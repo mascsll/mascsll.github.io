@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head> 
+    <base href='..'>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script> $.get('head.html', function(data) {
+        $('head').append(data);
+    }) </script>   
+</head> 
+  
+
+
+<body>
+
+    <div id="header"></div>
+    <script> $("#header").load("header.html", function() {
+        $("#org_button").attr("class", "current");
+    }) </script>
+
+    <h2>Organizing Committee</h2>
+    <p>
+    <ul>
+      <li><a class="people-name" href=""> Janice Ahn (PSU) </a></li>
+      <li><a class="people-name" href=""> Hongchao Fang (PSU) </a></li>
+      <li><a class="people-name" href=""> Arshan Dalili (PSU) </a></li>
+      <li><a class="people-name" href=""> Aashish Anantha Ramakrishnan (PSU) </a></li>
+      <li><a class="people-name" href=""> Jason Samuel Lucas (PSU) </a></li>
+      <li><a class="people-name" href=""> Sarkar Snigdha Sarathi Das (PSU) </a></li>
+      <li><a class="people-name" href=""> Ryo Kamoi (PSU) </a></li>
+      <li><a class="people-name" href=""> Ruyuan Wan (PSU) </a></li>
+      <li><a class="people-name" href=""> Ibraheem Muhammad Moosa (PSU) </a></li>
+      <li><a class="people-name" href=""> Vipul Gupta (PSU) </a></li>
+      <li><a class="people-name" href=""> Berk Atil (PSU) </a></li>
+      <li><a class="people-name" href=""> Zeyu He (PSU) </a></li>
+      <li><a class="people-name" href=""> Zixin Tang (PSU) </a></li>
+      <li><a class="people-name" href=""> Alan Huang (PSU) </a></li>
+    </ul>
+    </p>
+
+
+    <!-- <h2>Program Committee</h2>
+    <p>
+    <ul>
+      <li><a class="people-name" href="https://orionweller.github.io/"> Orion Weller (JHU) </a></li>
+              <li><a class="people-name" href="https://nlp.cs.gmu.edu/author/saurabh-srivastava/"> Saurabh Srivastava (GMU) </a></li>
+                      <li><a class="people-name" href="https://nlp.cs.gmu.edu/author/milind-agarwal/"> Milind Agarwal (GMU) </a></li>
+              <li><a class="people-name" href="https://sweta20.github.io/"> Sweta Agrawal (UMD)</a></li>
+      <li><a class="people-name" href="https://elbria.github.io/"> Eleftheria Briakou (UMD) </a></li>
+      <li><a class="people-name" href="https://zharry29.github.io/"> Li (Harry) Zhang (UPenn) </a></li>
+      <li><a class="people-name" href="https://www.linkedin.com/in/jshehri/"> Jumanah Alshehri (Temple University) </a></li>
+      <li><a class="people-name" href="https://yzpang.github.io/"> Yuanzhe (Richard) Pang (New York University) </a></li>
+    </ul>
+    </p> -->
+ 
+    <h2>Faculty Committee</h2>
+    <p>
+    <ul>	
+      <li><a class="people-name" href="https://crowd.ist.psu.edu/"> Kenneth Huang (PSU) </a></li>
+      <li><a class="people-name" href="https://shomir.net/"> Shomir Wilson (PSU) </a></li>
+      <li><a class="people-name" href="https://pike.psu.edu/dongwon/"> Dongwon Lee (PSU) </a></li>
+      <li><a class="people-name" href="https://sites.psu.edu/becky/"> Rebecca Jane Passonneau (PSU) </a></li>
+      <li><a class="people-name" href="https://ryanzhumich.github.io/"> Rui Zhang (PSU) </a></li>
+      <li><a class="people-name" href="https://www.wenpengyin.org/"> Wenpeng Yin (PSU) </a></li>
+
+    </ul>
+    </p>
+    <div id="footer"></div>
+    <script> $("#footer").load("footer.html") </script>
+
+    </body>
+
+    </body>
+</html>
+
