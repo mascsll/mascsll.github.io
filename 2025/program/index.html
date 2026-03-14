@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang='en'>
+<style>
+p.small{line-height:100%;}
+</style>
+
+<head> 
+    <base href='..'>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script> $.get('head.html', function(data) {
+        $('head').append(data);
+    }) </script>   
+</head> 
+
+
+
+<body>
+    
+    <div id="header"></div>
+    <script> $("#header").load("header.html", function() {
+        $("#prog_button").attr("class", "current");
+    }) </script>
+
+    <br>
+    <p>
+    The event will take place at Penn State University. See <a href="directions">Directions</a> for more details.
+    <!-- <b>The video recordings of all invited talks can be found in the end of this page.</b> -->
+    </p>
+
+    <h2>Schedule</h2>
+    <p>
+    <ul>
+        <table>
+            <tr>
+                <td class="maindate" rowspan="1">9:00 - 9:30</td>
+                <td class="title">Registration + Breakfast (Light breakfast will be provided)</td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">9:30 - 9:45</td>
+                <td class="title">Opening Remark</td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">9:45 - 10:45</td>
+                <td class="title">Keynote #1 (Xiang Lorraine Li)</td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">10:45 - 11:00</td>
+                <td class="title">Coffee Break</td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">11:00 - 12:00</td>
+                <td class="title">Poster Session #1</td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">12:00 - 13:00</td>
+                <td class="title">Lunch (Lunch will be provided)</td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">13:00 - 14:00</td>
+                <td class="title">Keynote #2 (Daphne Ippolito)</td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">14:00 - 14:15</td>
+                <td class="title">Coffee Break</td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">14:15 - 15:15</td>
+                <td class="title">Oral Paper Presentation (4 Oral Papers)</td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">15:15 - 16:30</td>
+                <td class="title">Ice Cream + Poster Session #2</td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">16:30 - 17:30</td>
+                <td class="title">Keynote #3 (Roger Beaty)</td>
+            </tr>
+            <tr>
+                <td class="maindate" rowspan="1">17:30 - 17:45</td>
+                <td class="title">Closing Remark & Award</td>
+            </tr>
+        </table>
+    </ul>
+    </p>
+
+    <h2>Oral Presentations</h2>
+    <p>
+    <ol>
+        <li>14:20 - 14:30: <a href="https://openreview.net/forum?id=vm2s68XnLb">Which of These Best Describes Multiple Choice Evaluation with LLMs? A) Forced B) Flawed C) Fixable D) All of the Above</a></li>
+        <li>14:35 - 14:45: <a href="https://openreview.net/forum?id=dgZKTPH05a">Mitigating the Harmful Self-Preference of LM Evaluators</a></li>
+        <li>14:50 - 15:00: <a href="https://openreview.net/forum?id=vsSM9upUCX">AAAR-1.0: Assessing AI's Potential to Assist Research</a></li>
+        <li>15:05 - 15:15: <a href="https://openreview.net/forum?id=fR9ulCekfa">Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale</a></li>
+    </ol>
+    </p>
+
+    <h2>Poster Sessions</h2>
+    <p>
+    <h3>Session 1</h3>
+    <ol>
+        <li>Questioning Privacy: Contrasting User Questions with Questions Answered by Privacy Policies</li>
+        <li>DialUp! Modeling the Language Continuum by Adapting Models to Dialects and Dialects to Models</li>
+        <li>Detection of Biased Phrases in the Wiki Neutrality Corpus for Fairer Digital Content Management using Artificial Intelligence</li>
+        <li>How does a Multilingual LM Handle Multiple Languages?</li>
+        <li>Using Contextually Aligned Online Reviews to Measure LLMs' Performance Disparities Across Language Varieties</li>
+        <li>Language Models Generate Multiple-Choice Questions with Artifacts</li>
+        <li>Do LLMs' math solutions align with humans?</li>
+        <li>Mental Model for Machine Translation in Human-MT Scenario</li>
+        <li>DnDScore: Decontextualization and Decomposition for Factuality Verification in Long-Form Text Generation</li>
+        <li>Multi-LLM Collaborative Caption Generation in Scientific Documents</li>
+        <li>Evaluating Vision-Language Models for Emotion Recognition</li>
+        <li>Multiple LLM Agents Debate for Equitable Cultural Alignment</li>
+        <li>Multilingual Dolma: Extending Open Pretraining Data Beyond English</li>
+        <li>Mitigating the Harmful Self-Preference of LM Evaluators</li>
+        <li>AAAR-1.0: Assessing AI's Potential to Assist Research</li>
+        <li>Vietnamese Emotion-Aware Text-to-Speech (VEA-TTS) System with Tone Adjustment Based on Sentiment</li>
+        <li>Do Vision-Language Models Discriminate based on Implicit Assumptions?</li>
+        <li>MAC-Summ: Multi Axis Controllable Summarization</li>
+        <li>eRevise+RF: A Writing Evaluation System for Assessing Student Essay Revisions and Providing Formative Feedback</li>
+        <li>Shaping Perception of Emotional Storytelling with Synthesized Speech</li>
+        <li>Crossroads of Continents: Automated Artifact Extraction for Cultural Adaptation with Large Multimodal Models</li>
+        <li>Live Query: Maintaining Relevance in LLM Responses With Evolving Source Documents</li>
+        <li>Distributive Fairness in Large Language Models: Evaluating Alignment with Human Values</li>
+        <li>Crisis MT Cookbook 2.0: Updates and Challenges</li>
+        <li>Mic'd Up and Misleading: Challenges and Future Directions in Detecting Falsehoods in Podcasts</li>
+        <li>Using LLMs to Analyze L1 Interference in a Longitudinal Learner Corpus</li>
+        <li>A Synergistic Approach to Explainable Factual Inconsistency Evaluation</li>
+        <li>Understanding How Paper Writers Use AI-Generated Captions in Figure Caption Writing</li>
+        <li>DecepBench: Benchmarking Multimodal Deception Detection</li>
+        <li>LLMs can Perform Multi-Dimensional Analytic Writing Assessments: A Case Study of L2 Graduate-Level Academic English Writing</li>
+        <li>Evaluating AI Mental Health Support Alignment with Community Needs and Expectations</li>
+    </ol>
+
+    <h3>Session 2</h3>
+    <ol>
+        <li>Which of These Best Describes Multiple Choice Evaluation with LLMs? A) Forced B) Flawed C) Fixable D) All of the Above</li>
+        <li>GraphSnapShot: A System for Graph Learning Acceleration</li>
+        <li>A Systematic Evaluation of Transformer-LM Representations for Capturing Author States and Traits</li>
+        <li>An Analyst-Inspector Framework for Evaluating Reproducibility of LLMs in Data Science</li>
+        <li>Can LLMs Disambiguate Grounded Language? The Case of PP Attachment</li>
+        <li>Enhancing Speaker Verification: Insights from CAARMA and PDAF</li>
+        <li>The Role of Metalanguage in Prompt Injection Attacks</li>
+        <li>Subjectivity in the Annotation of Bridging Anaphora</li>
+        <li>Beyond Believability: Scalable Reliability Evaluation of LLM-Based Social Simulations Using Verifiable Setups</li>
+        <li>DEER: Improving ICL-based Named Entity Recognition with Token-focused Retrieval and Reflection</li>
+        <li>Vision and Speech Language Models for Emotional Interpretation</li>
+        <li>Active Learning and Feature-Acquisition with LLMs and Humans</li>
+        <li>MedScore: Factuality Evaluation of Free-Form Medical Answers</li>
+        <li>Thai Winograd Schemas: A Benchmark for Thai Commonsense Reasoning</li>
+        <li>Anti-stereotypical Predictive Text Suggestions Only Occasionally Yield Anti-stereotypical Writing</li>
+        <li>Fusing LLaMa with State-Space Models to Read the Weather: Efficient Contextualization via State-Space Cross-Attention</li>
+        <li>Minds Like Ours? Probing Human-like Stereotypical Causal Attribution in LLMs</li>
+        <li>Code-Mixed Telugu-English Hate Speech</li>
+        <li>Generative AI for Efficient and Empathetic Conversational Models in Mental Health</li>
+        <li>Supporting TAs with Evaluating and Providing Feedback to Student Sensemaking in a Large Classroom</li>
+        <li>Echoes of Automation: The Increasing Use of LLMs in Newsmaking</li>
+        <li>Beyond the Field: Revolutionizing Football News Analytics with a Multi-Stage NLP Pipeline Integrating RAG and TEXT2SQL</li>
+        <li>Beyond Checkmate: Exploring the Creative Chokepoints in AI Text</li>
+        <li>Resolving UnderEdit & OverEdit with Iterative & Neighbor-Assisted Model Editing</li>
+        <li>COCOLOFA: A Dataset of News Comments with Common Logical Fallacies Written by LLM-Assisted Crowds</li>
+        <li>Exploring Numeracy of LLMs through Embedding Probes</li>
+        <li>Examining Bias in Large Language Models on Child Maltreatment: Representational Bias, Allocative Bias, and Output Homogeneity</li>
+        <li>Training AI to Assess Human Creativity across Tasks, Modalities, and Languages</li>
+        <li>Amuro and Char: Analyzing the Relationship between Pre-Training and Fine-Tuning of Large Language Models</li>
+        <li>AL-QASIDA: Analyzing LLM Quality and Accuracy Systematically in Dialectal Arabic</li>
+        <li>Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale</li>
+    </ol>
+    </p>
+
+    <h2>Keynote Speakers</h2>
+
+    <div style="margin: 20px;">
+        <div style="text-align: center; margin-bottom: 40px;">
+            <img src="assets/beaty_headshot2.jpg" alt="Roger Beaty" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
+            <h3><a href="https://beatylab.la.psu.edu/">Roger Beaty</a></h3>
+            <p>Associate Professor of Psychology<br>
+            Penn State University</p>
+
+            <hr style="margin: 20px 0; border: 1px solid #ccc; width: 80%;">
+            
+            <p style="text-align: justify; margin: 10px;">
+                Roger Beaty is the Dr. Frances Keesler Graham Early Career Professor and Associate Professor of Psychology at Penn State University. His lab develops AI-based tools to quantify creativity, focusing on aligning AI models with human preferences for automated evaluation. His research on creativity evaluation is supported by the National Science Foundation and the U.S. Army, with projects aimed at developing open-source educational tools and psychological test batteries. He is the recipient of the Berlyne Award from the American Psychological Association for early career contributions to creativity research and currently serves as President-Elect of the Society for the Neuroscience of Creativity.
+            </p>
+
+            <hr style="margin: 20px 0; border: 1px solid #ccc; width: 80%;">
+
+            <p>
+                <strong>Talk Title:</strong><br>
+                <i>Beyond Generation: Language Models as Creativity Evaluators</i>
+            </p>
+
+            <p>
+                <strong>Abstract:</strong><br>
+                <i>Creativity is a multifaceted process, encompassing not only the generation of ideas but also the evaluation of their originality and impact. Although language models (LMs) can generate new content, their capacity for evaluating creative work—a subjective judgment traditionally requiring human expertise and nuanced understanding—has received less attention. This talk shifts the focus from generation to evaluation, exploring how LMs can be trained to assess creative outputs across diverse domains, from literature to science. I will present in-context learning and fine-tuning approaches, leveraging established psychological assessment techniques to develop robust datasets of human creativity judgments. Our studies show that LM evaluations achieve high correlation with expert ratings across diverse creativity tasks, reaching inter-rater agreement comparable to human judges. This automated creativity evaluation enables AI-powered tools that can augment human creativity through real-time feedback, helping people learn to better evaluate their own ideas. It also opens the door to a comprehensive benchmark for evaluating the creative potential of LMs and the possibility of training more creative AI models. I will conclude with future work toward mechanistic understanding of LM creativity and discuss some broader implications of creative AI for the arts and sciences.</i>
+            </p>
+        </div>
+        <hr style="margin: 20px 0; border: 1px solid #ccc; width: 80%;">
+        <div style="text-align: center;">
+            <img src="./assets/xiang_pic.jpg" alt="Lorraine (Xiang) Li" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
+            <h3><a href="https://www.cs.pitt.edu/people/full-time-faculty/lorraine-xiang-li">Lorraine (Xiang) Li</a></h3>
+            <p>Assistant Professor of Computer Science<br>
+            University of Pittsburgh</p>
+            <hr style="margin: 20px 0; border: 1px solid #ccc; width: 80%;">
+            <p style="text-align: justify; margin: 10px;">
+                Xiang Lorraine Li is an assistant professor in the Department of Computer Science at the University of Pittsburgh. Her research interests lie at the intersection of natural language processing and machine learning, in particular, she's interested in understanding model behavior via evaluation benchmark design and exploration around the meaning of model parameters in complex or long-tail situations, for example, high-impact domains such as law and education. By doing this, she aims to construct socially responsible, equitable, and robust models that cater to diverse users, populations, cultures, and scenarios. Her research plan on building pluralistic models is presented in the AAAI new faculty highlight in 2025, and he work has been published in NLP and ML conferences. She worked as a young investigator with Yejin Choi at AI2 before joining Pitt. Previously, she defended her Ph.D. in Computer Science from UMass Amherst in August 2022, working with Andrew McCallum.
+            </p>
+
+            <hr style="margin: 20px 0; border: 1px solid #ccc; width: 80%;">
+
+            <p>
+                <strong>Talk Title:</strong><br>
+                <i>Every Opinion Matters: Distributional and Long-tail Evaluation for LLMs</i>
+            </p>
+            <p>
+                Human knowledge is inherently probabilistic and structured with multiple correct answers. For example, the purpose of "boiling water" could be cooking or making tea. However, people in areas with limited access to clean water might view it as a way to remove germs and ensure it's safe to drink. Unfortunately, this aspect is often overlooked in the current LLM evaluation. To ensure that models can serve diverse populations, it is important to gather multiple responses from a wide range of people and pay extra attention to rare, yet plausible and important, situations.
+                <br>
+                This talk will highlight the limitations of current LLMs in terms of their abilities around distribution and long-tail situations. I will discuss two benchmarks for evaluating commonsense in LLMs. One introduces a method for retrieving commonsense question-answer distributions from human annotators, and the other focuses on assessing the long-tail (uncommon) aspects of commonsense knowledge. The new evaluation benchmarks aim to shed light on making LLMs more robust to long-tail knowledge and better catering to diverse populations.
+            </p>
+        </div>
+        <hr style="margin: 20px 0; border: 1px solid #ccc; width: 80%;">
+        <div style="text-align: center; margin-bottom: 40px;">
+            <img src="./assets/daphne_ippolito_photo.png" alt="Daphne Ippolito" style="width: 250px; height: 250px; object-fit: cover; border-radius: 5px;">
+            <h3><a href="https://www.daphnei.com">Daphne Ippolito</a></h3>
+            <p>Assistant Professor of Language Technologies Institute (LTI), School of Computer Science<br>
+            Carnegie Mellon University (CMU)</p>
+            <hr style="margin: 20px 0; border: 1px solid #ccc; width: 80%;">
+            <p style="text-align: justify; margin: 10px;">
+                Daphne Ippolito is an assistant professor at the Language Technologies Institute at Carnegie Mellon University and a senior research scientist at Google Deepmind. Among other topics, she studies privacy and security issues around LLM systems, strategies for better evaluation of language models, and customizability of LLMs for different real-world applications.
+            </p>
+
+            <hr style="margin: 20px 0; border: 1px solid #ccc; width: 80%;">
+
+            <p>
+                <strong>Talk Title:</strong><br>
+                <i>Troubles with Training Data for Large Language Models</i>
+            </p>
+            <p>
+                Language models are trained on billions of words of text. Where does that text come from and how is it processed and filtered on its way to becoming training data? In this talk, we will examine how seemingly small decisions made when preparing pre-training data can have a significant impact on observed model performance. We will also discuss the problems with relying on the Internet as a primary source for training data. Gradual shifts in how content is posted on the web will limit its future usefulness as training data, and since the Internet is public, anyone can edit it, including adversaries aiming to introduce undesirable behaviours by inserting poisoned text.
+            </p>
+        </div>
+    </div>
+
+    <h2>Awards</h2>
+    <p>
+        <h3>Best Poster in Session #1</h3>
+        <ul>
+            <li>Vision and Speech Language Models for Emotional Interpretation (Jonathan Liu)</li>
+            <li>Using LLMs to Analyze L1 Interference in a Longitudinal Learner Corpus (Poorvi Acharya, Dhiman Goswami, Kai North, Antonios Anastasopoulos, Marcos Zampieri)</li>
+        </ul>
+
+        <h3>Best Poster in Session #2</h3>
+        <ul>
+            <li>Generative AI for Efficient and Empathetic Conversational Models in Mental Health (Suhas BN, Dominik Mattioli, Saeed Abdullah, Rosa I. Arriaga, Christopher Wiese, Andrew Sherrill)</li>
+            <li>Active Learning and Feature-Acquisition with LLMs and Humans (Prabhav Singh, Haojun Shi, Jason Eisner)</li>
+        </ul>
+
+        <h3>Best Oral Presentation</h3>
+        <ul>
+            <li>Which of These Best Describes Multiple Choice Evaluation with LLMs? A) Forced B) Flawed C) Fixable D) All of the Above (Nishant Balepur, Rachel Rudinger, Jordan Lee Boyd-Graber)</li>
+        </ul>
+    </p>
+
+    <div id="footer"></div>
+    <script> $("#footer").load("footer.html") </script>
+
+    </body>
+
+    </body>
+</html>
+
