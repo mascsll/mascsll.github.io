@@ -290,7 +290,7 @@ and (-webkit-device-pixel-ratio : 3)
 html, body {
   margin: 0 !important;
   padding: 0 !important;
-  margin-right: auto !important;
+  margin: auto !important;
 }
 
 
