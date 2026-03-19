@@ -25,7 +25,7 @@
 html {
   /* This will force your transition to stay, even if the extension tries to kill it */
   transition-property: all !important;
-  /* margin-right: 0 !important; */
+  margin-right: 0 !important;
 
     width: 50em; 
     font-size: 20px;
