@@ -122,7 +122,7 @@ th,td{
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto Slab',serif;}
 .top-left {font-size: 4.00em;font-weight: bold;color: #505050;background: #fafafa;text-align: right;/* width: 35rem; */height: 3rem;padding: 2rem 7rem 0 0;margin: 0;/* top: 0px; */}
-.img-top-left {/* font-size:5.00em; *//* font-weight: bold; *//* color: #505050; *//* background: #fafafa; *//* text-align: center; *//* width: 1000px; */height: 7rem;padding: 0 0 0rem 4rem;/* top: 0px; */float: left;margin-bottom: 2rem;}
+.img-top-left {/* font-size:5.00em; *//* font-weight: bold; *//* color: #505050; *//* background: #fafafa; *//* text-align: center; *//* width: 1000px; */height: 7rem;padding: 0 0 4rem 4rem;/* top: 0px; */float: left;margin-bottom: 2rem;}
 .bottom-right {font-size: 1.2rem;color: #52739e;line-height: 1.5em;width: auto;height: 2rem;padding: 0 8rem 1rem 0;text-align: right;bottom: 0px;right: 0px;}
 
 /* Navigation Links (Home, Registration, etc) */
